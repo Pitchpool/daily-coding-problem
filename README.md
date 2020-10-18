@@ -4,6 +4,25 @@ Solutions to problems sent by dailycodingproblem.com
 
 ---
 
+### Problem 0
+1. You are to create a stock table and also stored procedure that takes two parameters;
+a. merchant Id as string
+b. user Id as GUID
+Filter a stock table with the above parameters and order your result by date in descending order.
+2. Chaka servers was modeled as a 2D Mesh array and needs to be updated, all updated state = 1 and non updated state = 0.
+Now only updated server will be able to update adjacent servers and no server must be updated twice.
+You are to write the number of days that it will take to update all the servers of a given N X M
+Eg. Day One
+[1 0 0]
+[0 0 0]
+[0 0 1]
+After day one the state would become
+[1 1 0]
+[1 0 1]
+[0 1 1]
+Please note that we would like to see how you transit from a problem statement to your proposed algorithm and then a valid function in the .NET language.
+
+
 #### Problem 1
 
 Given a list of numbers, return whether any two sums to k.
